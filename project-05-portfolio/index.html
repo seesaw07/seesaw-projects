@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>seesaw07 | Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Theme Toggle -->
+    <button id="theme-btn" onclick="toggleTheme()">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">@seesaw07</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-btn" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <img 
+                src="https://api.dicebear.com/10.x/avataaars/svg?hairColor=e8e1e1&skinColor=edb98a&backgroundColor=b6e3f4&clothesColor=262e33&accessoriesColor=ffffff&seed=seesaw07" 
+                alt="seesaw07" 
+                class="avatar"
+            />
+            <h1>Hi, I'm <span class="highlight">@seesaw07</span></h1>
+            <p class="tagline">Full Stack Developer | Remote Ready</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/seesaw07" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about"><i class="fas fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2 class="section-title">About <span class="highlight">Me</span></h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I am a passionate Full Stack Developer based in India. I love building web applications that solve real problems.</p>
+                <p>Currently pursuing BCA from IGNOU while learning web development. I dedicate 12+ hours daily to mastering my craft.</p>
+                <div class="about-stats">
+                    <div class="stat">
+                        <strong>4+</strong>
+                        <span>Projects</span>
+                    </div>
+                    <div class="stat">
+                        <strong>12+</strong>
+                        <span>Hours/Day</span>
+                    </div>
+                    <div class="stat">
+                        <strong>100%</strong>
+                        <span>Dedication</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+                <p>Semantic markup, forms, accessibility</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+                <p>Flexbox, Grid, Animations, Responsive</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+                <p>DOM, Events, Async, ES6+</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-react"></i>
+                <h3>React</h3>
+                <p>Components, Hooks, State (Learning)</p>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-node-js"></i>
+                <h3>Node.js</h3>
+                <p>Express, REST APIs, Backend</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <h3>MongoDB</h3>
+                <p>Database, Mongoose, CRUD</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-id-card"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Developer Card</h3>
+                    <p>Simple personal card with HTML & CSS</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="../project-01-personal-card/index.html" target="_blank" class="btn-sm">Live Demo</a>
+                        <a href="https://github.com/seesaw07/seesaw-projects/tree/main/project-01-personal-card" target="_blank" class="btn-sm">Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-rocket"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Landing Page</h3>
+                    <p>Animated landing page with dark mode</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="../project-02-landing/index.html" target="_blank" class="btn-sm">Live Demo</a>
+                        <a href="https://github.com/seesaw07/seesaw-projects/tree/main/project-02-landing" target="_blank" class="btn-sm">Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-tasks"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Todo App</h3>
+                    <p>Task manager with localStorage</p>
+                    <div class="project-tags">
+                        <span>JavaScript</span>
+                        <span>localStorage</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="../project-03-todo/index.html" target="_blank" class="btn-sm">Live Demo</a>
+                        <a href="https://github.com/seesaw07/seesaw-projects/tree/main/project-03-todo" target="_blank" class="btn-sm">Code</a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-cloud-sun"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Weather App</h3>
+                    <p>Real weather data from API</p>
+                    <div class="project-tags">
+                        <span>API</span>
+                        <span>Async JS</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="../project-04-weather/index.html" target="_blank" class="btn-sm">Live Demo</a>
+                        <a href="https://github.com/seesaw07/seesaw-projects/tree/main/project-04-weather" target="_blank" class="btn-sm">Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+        <div class="contact-content">
+            <p class="contact-text">I'm currently open to remote opportunities. Let's build something amazing together!</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>singalona5@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>India (Remote)</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-clock"></i>
+                    <span>Available Full Time</span>
+                </div>
+            </div>
+            <a href="mailto:singalona5@gmail.com" class="btn btn-primary btn-large">
+                <i class="fas fa-paper-plane"></i> Send Message
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">@seesaw07</div>
+            <p>Full Stack Developer | Remote Ready</p>
+            <div class="footer-links">
+                <a href="https://github.com/seesaw07" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+            <p class="copyright">© 2026 @seesaw07. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

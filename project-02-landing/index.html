@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>seesaw | Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Theme Toggle -->
+    <button id="theme-btn" onclick="toggleTheme()">🌙</button>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img 
+            src="https://api.dicebear.com/10.x/avataaars/svg?hairColor=e8e1e1&skinColor=edb98a&backgroundColor=b6e3f4&clothesColor=262e33&accessoriesColor=ffffff&seed=seesaw" 
+            alt="avatar" 
+            class="avatar"
+            width="80"
+            height="80"
+        />
+        <h1>Hi, I'm @seesaw</h1>
+        <p>Full Stack Developer</p>
+        <a href="#contact" class="btn">Contact Me</a>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>I build websites and web applications. Passionate about coding and creating useful products.</p>
+        
+        <!-- Counter -->
+        <div class="counter-box">
+            <h3>Counter: <span id="count">0</span></h3>
+            <button onclick="increaseCount()" class="btn">Click Me</button>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">HTML</div>
+            <div class="skill-card">CSS</div>
+            <div class="skill-card">JavaScript</div>
+            <div class="skill-card">React</div>
+            <div class="skill-card">Node.js</div>
+            <div class="skill-card">MongoDB</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>Developer Card</p>
+                <a href="#">View Code</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>Landing Page</p>
+                <a href="#">View Code</a>
+            </div>
+            <div class="project-card">
+                <h3>Project 3</h3>
+                <p>Coming Soon</p>
+                <a href="#">View Code</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <p>Let's work together!</p>
+        <a href="mailto:seesaw@protonmail.com" class="btn">Email Me</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 @seesaw. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
